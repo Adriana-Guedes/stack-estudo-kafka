@@ -1,0 +1,7 @@
+server:
+  port: 8100
+spring:
+  kafka:
+    # localhost: fora do container
+    # kafka: serviço dentro do container
+    bootstrap-servers: kafka:29092
