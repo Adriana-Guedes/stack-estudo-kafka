@@ -1,0 +1,8 @@
+com\alves\paymentservice\service\PaymentService.class
+com\alves\paymentservice\service\impl\PaymentServiceImpl.class
+com\alves\paymentservice\model\Payment.class
+com\alves\paymentservice\resource\impl\PaymentResourceImpl.class
+com\alves\paymentservice\resource\PaymentResource.class
+com\alves\paymentservice\config\JsonProducerConfig.class
+com\alves\paymentservice\config\KakfaAdminConfig.class
+com\alves\paymentservice\PaymentServiceApplication.class
