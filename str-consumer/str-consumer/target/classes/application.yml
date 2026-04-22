@@ -1,0 +1,10 @@
+server:
+  port: 8100
+spring:
+  kafka:
+    consumer:
+      # Conexão inicial (bootstrap); o Kafka retorna metadata
+      # com advertised.listeners apontando para localhost:9092.
+      # Essas configurações (listeners/advertised.listeners)
+      # estão definidas no docker-compose do Kafka.
+      bootstrap-servers:  localhost:29092
